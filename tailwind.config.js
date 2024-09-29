@@ -12,12 +12,17 @@ export default {
 
 		extend: {
 			colors: {
-				dark: '#3d3d3d',
 				primary: '#46a358',
 				'light-green': '#4aa3581a',
 
+				dark: {
+					10: '#3d3d3d',
+					20: '#727272',
+				},
+
 				gray: {
 					10: '#fbfbfb',
+					20: '#f5f5f5',
 				},
 
 				yellow: {
