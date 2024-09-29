@@ -2,7 +2,14 @@
 export default {
 	content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
 	theme: {
-		extend: {},
+		container: {
+			center: true,
+
+			screens: {
+				lg: '1260px',
+			},
+		},
+
 		extend: {
 			colors: {
 				dark: '#3d3d3d',
